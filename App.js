@@ -20,7 +20,7 @@ export default function App() {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={{ flex: 1 }}>
         <ScrollView
-          style={{ flex: 1 }}
+          style={{ flex: 1, backgroundColor: "#F0F0E1" }}
           horizontal={true}
           scrollEventThrottle={16}
           pagingEnabled={true}

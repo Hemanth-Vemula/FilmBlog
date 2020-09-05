@@ -24,16 +24,18 @@ export default StyleSheet.create({
   dataWrapper: { marginTop: -1 },
   table: { width: "100%", alignSelf: "center", margin: 20 },
   banner: {
-    fontSize: 20,
+    fontSize: 24,
     textAlign: "center",
     fontWeight: "bold",
     color: "#000000",
+    marginBottom: 50,
+    marginTop: 50,
   },
-  loginView: { width: "30%", alignSelf: "center" },
+  loginView: { width: "30%", alignSelf: "center", marginBottom: 50 },
   buttonsView: {
     margin: 15,
     flexDirection: "row",
     justifyContent: "space-between",
   },
-  retrival: {},
+  retrival: { marginTop: 50, marginBottom: 30 },
 });
