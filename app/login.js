@@ -25,7 +25,7 @@ class Login extends Component {
       alert("Enter a valid user name that contains letters and numbers");
     } else {
       try {
-        fetch("https://filmblog.herokuapp.com/api/v1/login", {
+        fetch("http://192.168.0.24:8080/api/v1/login", {
           method: "POST",
           body: JSON.stringify({
             username: val,

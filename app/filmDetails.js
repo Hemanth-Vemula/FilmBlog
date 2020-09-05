@@ -36,7 +36,7 @@ class FilmDetails extends Component {
       return false;
     } else {
       try {
-        fetch("https://filmblog.herokuapp.com/api/v1/films", {
+        fetch("http://192.168.0.24:8080/api/v1/films", {
           method: "POST",
           body: JSON.stringify({
             name: filmTitle,
@@ -87,7 +87,7 @@ class FilmDetails extends Component {
     } else {
       try {
         console.log(filmTitle, filmRating);
-        fetch("https://filmblog.herokuapp.com/api/v1/films", {
+        fetch("http://192.168.0.24:8080/api/v1/films", {
           method: "PUT",
           body: JSON.stringify({
             name: filmTitle,

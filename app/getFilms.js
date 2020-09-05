@@ -16,7 +16,7 @@ class GetFilms extends Component {
     var tableData = [];
     var i = 0;
     try {
-      fetch("https://filmblog.herokuapp.com/api/v1/films", {
+      fetch("http://192.168.0.24:8080/api/v1/films", {
         method: "GET",
         headers: {
           Accept: "application/json",
