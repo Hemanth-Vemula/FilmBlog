@@ -12,7 +12,8 @@ npm install -g expo-cli
 
 # Running Application: 
 
-Clone the repository. 
+Clone the repository.
+
 In the project folder execute, $ npm install (To Install all dependencies)
 npm start (To start application)
 Make sure emulator is up and running.
